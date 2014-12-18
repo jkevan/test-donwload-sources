@@ -70,10 +70,7 @@
         please contact the sales department at sales@jahia.com.
 
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
-                      http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0                       http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>jahia-modules</artifactId>
@@ -83,7 +80,7 @@
     <groupId>org.jahia.modules</groupId>
     <artifactId>test-download-sources</artifactId>
     <name>test-download-sources</name>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
     <packaging>bundle</packaging>
     <description>This is the custom module (test-download-sources) for running on a Digital Factory server.</description>
 
@@ -91,7 +88,8 @@
         <connection>scm:git:git@github.com:jkevan/test-donwload-sources.git</connection>
         <url>scm:git:git@github.com:jkevan/test-donwload-sources.git</url>
         <developerConnection>scm:git:git@github.com:jkevan/test-donwload-sources.git</developerConnection>
-    </scm>
+      <tag>1_0</tag>
+  </scm>
 
     <repositories>
         <repository>
