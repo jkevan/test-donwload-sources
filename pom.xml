@@ -88,8 +88,9 @@
     <description>This is the custom module (test-download-sources) for running on a Digital Factory server.</description>
 
     <scm>
-        <connection>scm:dummy:uri</connection>
-        <developerConnection>scm:dummy:uri</developerConnection>
+        <connection>scm:git:blabla</connection>
+        <url>scm:git:blabla</url>
+        <developerConnection>scm:git:blabla</developerConnection>
     </scm>
 
     <repositories>
