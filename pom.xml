@@ -88,8 +88,9 @@
     <description>This is the custom module (test-download-sources) for running on a Digital Factory server.</description>
 
     <scm>
-        <connection>scm:dummy:uri</connection>
-        <developerConnection>scm:dummy:uri</developerConnection>
+        <connection>scm:git:git@github.com:jkevan/test-donwload-sources.git</connection>
+        <url>scm:git:git@github.com:jkevan/test-donwload-sources.git</url>
+        <developerConnection>scm:git:git@github.com:jkevan/test-donwload-sources.git</developerConnection>
     </scm>
 
     <repositories>
